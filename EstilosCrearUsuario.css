@@ -8,7 +8,7 @@ body {
     width: 100%;
     height: 100vh;
     background: #009FFF;  
-    background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF); 
+    background: -webkit-linear-gradient(to right, #31a731, #f52020); 
     background: linear-gradient(to right, #ec2F4B, #009FFF);
     font-family: 'Roboto', sans-serif;  
 }
