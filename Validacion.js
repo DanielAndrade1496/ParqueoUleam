@@ -1,26 +1,26 @@
 function Validar(user,pwd)
 		  {
-		   user=document.getElementById(user);
-		   pwd=document.getElementById(pwd);
-		   if(user.value=="")
+		   Correo=document.getElementById(Correo);
+		   contrasena=document.getElementById(contrasena);
+		   if(Correo.value=="")
 			{
 			 alert("El campo Correo esta vacio");
-			 user.focus();
+			 Correo.focus();
 			 return false;
 			}
 		   else
 			{
-			 if(pwd.value=="")
+			 if(contrasena.value=="")
 			  {
 			   alert("El campo Contrasena esta vacio");
-			   pwd.focus();
+			   contrasena.focus();
 			   return false;
 			  }
 			 else
 			  {
-			   var usuario = document.formulario.user.value;
-			   var password = document.formulario.password.value;
-			   window.location='procesoChecador.php?usuario='+usuario+'&pw='+password;
+			   var Correo = document.formulario.Correo.value;
+			   var Contrasena = document.formulario.contrasena.value;
+			   window.location='procesoChecador.php?usuario='+Correo+'&pw='+Contrasena;
                window.open='ResgistroVehiculo.html';
 			   return true;
 			  }
