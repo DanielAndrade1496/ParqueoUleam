@@ -4,7 +4,7 @@ function Validar(user,pwd)
 		   pwd=document.getElementById(pwd);
 		   if(user.value=="")
 			{
-			 alert("El campo Nombre esta vacio");
+			 alert("El campo Correo esta vacio");
 			 user.focus();
 			 return false;
 			}
@@ -12,7 +12,7 @@ function Validar(user,pwd)
 			{
 			 if(pwd.value=="")
 			  {
-			   alert("El campo Passwd esta vacio");
+			   alert("El campo Contrasena esta vacio");
 			   pwd.focus();
 			   return false;
 			  }
