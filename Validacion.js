@@ -21,6 +21,7 @@ function Validar(user,pwd)
 			   var usuario = document.formulario.user.value;
 			   var password = document.formulario.password.value;
 			   window.location='procesoChecador.php?usuario='+usuario+'&pw='+password;
+               window.open='ResgistroVehiculo.html';
 			   return true;
 			  }
 			}
