@@ -1,28 +1,21 @@
-function Validar(user,pwd)
-		  {
-		   Correo=document.getElementById(Correo);
-		   contrasena=document.getElementById(contrasena);
-		   if(Correo.value=="")
-			{
-			 alert("El campo Correo esta vacio");
-			 Correo.focus();
-			 return false;
-			}
-		   else
-			{
-			 if(contrasena.value=="")
-			  {
-			   alert("El campo Contrasena esta vacio");
-			   contrasena.focus();
-			   return false;
-			  }
-			 else
-			  {
-			   var Correo = document.formulario.Correo.value;
-			   var Contrasena = document.formulario.contrasena.value;
-			   window.location='procesoChecador.php?usuario='+Correo+'&pw='+Contrasena;
-               window.open='ResgistroVehiculo.html';
-			   return true;
-			  }
-			}
-		  }
+
+
+function Aprov(){
+    var Email= document.getElementById("Correo").value;
+    var password= document.getElementById("password").value;
+    var asc= /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/;
+    var validar=asc.test(Email);
+    if(validar == true){
+        if(password ==null || password.length == 0){
+            alert("Se debe llenar el campo contraseña")
+        }
+        else{
+            
+        }
+    }else{
+        alert("Correo electronico no valido")
+    }
+    
+    
+}
+
