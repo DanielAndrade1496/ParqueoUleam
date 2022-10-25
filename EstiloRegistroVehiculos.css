@@ -1,24 +1,8 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
-body {
-    width: 100%;
-    height: 100vh;
-    background: #009FFF;  
-    background: -webkit-linear-gradient(to right, #31a731, #f52020); 
-    background: linear-gradient(to right, #f52020, #31a731); 
-}
 
 
 
-#header {
-    margin:auto;
-    width:500px;
-    font-family:Arial, Helvetica, sans-serif;
-}
+
+
 
 ul, ol {
     list-style:none;
@@ -58,20 +42,7 @@ ul, ol {
     right:-140px;
     top:0px;
 }
-form{
-    position: absolute;
-    min-width: 280px;
-    max-width: 25%;
-    width: 25%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    padding: 15px;
-    box-shadow: 0 1rem 1rem  rgba(0, 0, 0, 0.3);
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(1rem);
-    border-radius: 5px;
-    color: #fff;
+
 }
 h1{
     position: relative;
@@ -88,16 +59,6 @@ h1::after{
     width: 120px;
     left: 0;
     bottom: 0;    
-}
-input{
-    display: block;
-    width: 100%;
-    height: 40px;
-    padding: 5px 6px;
-    margin-bottom: 15px;
-    border: none;
-    outline: none;
-    border-radius: 1px;
 }
 
 button{

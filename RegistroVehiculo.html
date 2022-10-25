@@ -1,6 +1,16 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 	<head>
-        <link rel="stylesheet" href="EstiloRegistroVehiculos.css">
+		<link rel="stylesheet" href="EstiloRegistroVehiculos.css">
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="path/to/css/smart-forms.css">
+        <link rel="stylesheet" href="path/to/css/font-awesome.min.css"> 
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-custom.min.js"></script>
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="js/additional-methods.min.js"></script>
 		<title>Menu Desplegable</title>
 	</head>
 	<body>
@@ -21,29 +31,260 @@
 				<li><a href="Contacto.html">Contacto</a></li>
 			</ul>
 		</div>
-		<div class="RegistroVehiculo">
-			<form name="formulario" onSubmit="return Validar('usuario','pw')">
-			  <h1 class="title">Registro Vehiculo</h1>
-		
-			  <div class="inputContainer">
-				<label for="" class="label">Placa</label>
-				<input type="email" name='Placa' id='Placa' placeholder="Ingrese la placa del vehiculo">
+		<div class="smart-wrap">
+			<div class="smart-forms smart-container wrap-2">
+			 
+			  <div class="form-header header-primary">
+				<h4><i class="fa fa-calendar"></i>Make Room Reservations in Minutes</h4>
 			  </div>
-	
-			  <div class="inputContainer">
-				<label for="" class="label">Color de carro</label>
-				<input type="password" name='Color' id='Color' placeholder="Ingrese el color del carro">
-			  </div>
-
-			  <div class="inputContainer">
-				<label for="" class="label">Tipo de carro</label>
-				<input type="password" name='Tipo' id='Tipo' placeholder="Tipo de Vehiculo">
-			  </div>
-				
-				<input type="submit" class="submitBtn" value="Registrar Vehiculo">
-				
-				
-			</form>
+			   
+			  <form method="post" action="/" id="contact">
+				<div class="form-body">
+				 
+				 <!-- OUR FORM ELEMENTS WILL GO HERE -->                                               
+				   
+				</div>
+				<div class="form-footer">
+				  <button type="submit" class="button btn-primary">Confirm Booking</button>
+				  <button type="reset" class="button">Cancel</button>
+				</div>
+				 
+			  </form>
+			   
+			</div>
 		  </div>
+             
+		  <div class="section">
+  <label for="guestname" class="field-label">Please Enter Your Name</label>
+  <label for="guestname" class="field prepend-icon">
+    <input type="text" name="guestname" id="guestname" class="gui-input" required="" placeholder="John Doe/Jane Doe">
+    <span class="field-icon"><i class="fa fa-user"></i></span>  
+  </label>
+</div>
+               
+<div class="frm-row">
+  <div class="section colm colm6">
+    <label for="guestemail" class="field-label">Email Address</label>
+    <label for="guestemail" class="field prepend-icon">
+      <input type="email" name="guestemail" id="guestemail" class="gui-input" required="" placeholder="john@something.com">
+      <span class="field-icon"><i class="fa fa-envelope"></i></span>  
+    </label>
+  </div>
+   
+  <div class="section colm colm6">
+    <label for="guestelephone" class="field-label">Telephone / Mobile</label>
+    <label for="guestelephone" class="field prepend-icon">
+      <input type="text" name="guestelephone" id="guestelephone" class="gui-input" required="" placeholder="Telephone / Moble Number">
+      <span class="field-icon"><i class="fa fa-phone-square"></i></span>  
+    </label>
+  </div>
+</div>
+ 
+<div class="frm-row">
+  <div class="section colm colm6">
+    <label for="adults" class="field-label">Number of Adults</label>
+    <label for="adults" class="field prepend-icon">
+      <input type="number" id="adults" name="adults" class="gui-input" required="" placeholder="Number of adults">
+      <span class="field-icon"><i class="fa fa-users"></i></span>  
+    </label>
+  </div>
+   
+  <div class="section colm colm6">
+    <label for="children" class="field-label">Number of Children</label>
+    <label for="children" class="field prepend-icon">
+      <input type="number" id="children" name="children" class="gui-input" required="" placeholder="Number of children">
+      <span class="field-icon"><i class="fa fa-users"></i></span>  
+    </label>
+  </div>
+</div>
+ 
+<div class="frm-row">
+  <div class="section colm colm6">
+    <label for="checkin" class="field-label">Check-in Date</label>
+    <label for="checkin" class="field prepend-icon">
+      <input type="text" id="checkin" name="checkin" class="gui-input" required="" placeholder="mm/dd/yyyy">
+      <span class="field-icon"><i class="fa fa-calendar"></i></span>  
+    </label>
+  </div>
+   
+  <div class="section colm colm6">
+    <label for="checkout" class="field-label">Check-out Date</label>
+    <label for="checkout" class="field prepend-icon">
+      <input type="text" id="checkout" name="checkout" class="gui-input" required="" placeholder="mm/dd/yyyy">
+      <span class="field-icon"><i class="fa fa-calendar"></i></span>  
+    </label>
+  </div>
+</div>
+ 
+<div class="spacer-t20 spacer-b30">
+  <div class="tagline"><span>Please answer these questions for a pleasant stay</span></div>
+</div>
+ 
+<div class="frm-row">
+  <div class="option-group field">
+   
+    <div class="section colm colm6">
+      <label class="switch">
+        <input type="checkbox" name="switch1" id="switch1" value="switch1">
+        <span class="switch-label" data-on="YES" data-off="NO"></span>
+        <span>Will you be bringing a pet?</span>
+      </label>
+    </div>
+         
+    <div class="section colm colm6">
+      <label class="switch">
+        <input type="checkbox" name="switch2" id="switch2" value="switch2">
+        <span class="switch-label" data-on="YES" data-off="NO"></span>
+        <span>Do you need us to pick you up?</span>
+      </label>
+    </div>
+               
+  </div>
+</div>
+ 
+ 
+ 
+<div class="section">
+  <label for="comment" class="field-label">Anything else we should know about?</label>
+  <label for="comment" class="field prepend-icon">
+    <textarea class="gui-textarea" id="comment" name="comment" placeholder="Let us know about any special accommodation needs"></textarea>
+    <span class="field-icon"><i class="fa fa-comments"></i></span>
+    <span class="input-hint"> 
+      <strong>Please:</strong> Be as descriptive as possible
+    </span>   
+  </label>
+</div>
+<div class="section">
+	<label for="guestname" class="field-label">Please Enter Your Name</label>
+	<label for="guestname" class="field prepend-icon">
+	  <input type="text" name="guestname" id="guestname" class="gui-input" required="" placeholder="John Doe/Jane Doe">
+	  <span class="field-icon"><i class="fa fa-user"></i></span>  
+	</label>
+  </div>
+				 
+  <div class="frm-row">
+	<div class="section colm colm6">
+	  <label for="guestemail" class="field-label">Email Address</label>
+	  <label for="guestemail" class="field prepend-icon">
+		<input type="email" name="guestemail" id="guestemail" class="gui-input" required="" placeholder="john@something.com">
+		<span class="field-icon"><i class="fa fa-envelope"></i></span>  
+	  </label>
+	</div>
+	 
+	<div class="section colm colm6">
+	  <label for="guestelephone" class="field-label">Telephone / Mobile</label>
+	  <label for="guestelephone" class="field prepend-icon">
+		<input type="text" name="guestelephone" id="guestelephone" class="gui-input" required="" placeholder="Telephone / Moble Number">
+		<span class="field-icon"><i class="fa fa-phone-square"></i></span>  
+	  </label>
+	</div>
+  </div>
+   
+  <div class="frm-row">
+	<div class="section colm colm6">
+	  <label for="adults" class="field-label">Number of Adults</label>
+	  <label for="adults" class="field prepend-icon">
+		<input type="number" id="adults" name="adults" class="gui-input" required="" placeholder="Number of adults">
+		<span class="field-icon"><i class="fa fa-users"></i></span>  
+	  </label>
+	</div>
+	 
+	<div class="section colm colm6">
+	  <label for="children" class="field-label">Number of Children</label>
+	  <label for="children" class="field prepend-icon">
+		<input type="number" id="children" name="children" class="gui-input" required="" placeholder="Number of children">
+		<span class="field-icon"><i class="fa fa-users"></i></span>  
+	  </label>
+	</div>
+  </div>
+   
+  <div class="frm-row">
+	<div class="section colm colm6">
+	  <label for="checkin" class="field-label">Check-in Date</label>
+	  <label for="checkin" class="field prepend-icon">
+		<input type="text" id="checkin" name="checkin" class="gui-input" required="" placeholder="mm/dd/yyyy">
+		<span class="field-icon"><i class="fa fa-calendar"></i></span>  
+	  </label>
+	</div>
+	 
+	<div class="section colm colm6">
+	  <label for="checkout" class="field-label">Check-out Date</label>
+	  <label for="checkout" class="field prepend-icon">
+		<input type="text" id="checkout" name="checkout" class="gui-input" required="" placeholder="mm/dd/yyyy">
+		<span class="field-icon"><i class="fa fa-calendar"></i></span>  
+	  </label>
+	</div>
+  </div>
+   
+  <div class="spacer-t20 spacer-b30">
+	<div class="tagline"><span>Please answer these questions for a pleasant stay</span></div>
+  </div>
+   
+  <div class="frm-row">
+	<div class="option-group field">
+	 
+	  <div class="section colm colm6">
+		<label class="switch">
+		  <input type="checkbox" name="switch1" id="switch1" value="switch1">
+		  <span class="switch-label" data-on="YES" data-off="NO"></span>
+		  <span>Will you be bringing a pet?</span>
+		</label>
+	  </div>
+		   
+	  <div class="section colm colm6">
+		<label class="switch">
+		  <input type="checkbox" name="switch2" id="switch2" value="switch2">
+		  <span class="switch-label" data-on="YES" data-off="NO"></span>
+		  <span>Do you need us to pick you up?</span>
+		</label>
+	  </div>
+				 
+	</div>
+  </div>
+   
+   
+   
+  <div class="section">
+	<label for="comment" class="field-label">Anything else we should know about?</label>
+	<label for="comment" class="field prepend-icon">
+	  <textarea class="gui-textarea" id="comment" name="comment" placeholder="Let us know about any special accommodation needs"></textarea>
+	  <span class="field-icon"><i class="fa fa-comments"></i></span>
+	  <span class="input-hint"> 
+		<strong>Please:</strong> Be as descriptive as possible
+	  </span>   
+	</label>
+  </div>
+  <script type="text/javascript">
+	$("#booking-form").validate();
+	 
+	$("#checkin").datepicker({
+			defaultDate: "+1w",
+			changeMonth: false,
+			numberOfMonths: 1,
+			prevText: '<i class="fa fa-chevron-left"></i>',
+			nextText: '<i class="fa fa-chevron-right"></i>',
+			onClose: function( selectedDate ) {
+					$( "#checkout" ).datepicker( "option", "minDate", selectedDate );
+			}
+	});
+	 
+	$("#checkout").datepicker({
+			defaultDate: "+1w",
+			changeMonth: false,
+			numberOfMonths: 1,
+			prevText: '<i class="fa fa-chevron-left"></i>',
+			nextText: '<i class="fa fa-chevron-right"></i>',                    
+			onClose: function( selectedDate ) {
+					$( "#checkin" ).datepicker( "option", "maxDate", selectedDate );
+			}
+	});
+	</script>
+  <body>
+  
+        <!-- OUR BOOKING FORM MARKUP -->
+  
+  </body>
+</html>
+
 	</body>
 </html>
