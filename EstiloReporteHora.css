@@ -4,60 +4,60 @@ table, th,td{
     border: 2px solid rgb(1, 1, 1);
     margin-top: 7px;
 }
-/* horas dias*/
+
 .h{
-    color: rgb(129, 15, 38);
+    color: rgb(17, 2, 230);
     width: 5%;
     font-family:cursive, fantasy;
     font-size: 18px;
 }
 .d{
-    color: rgb(129, 15, 38);
+    color: rgb(64, 20, 223);
     width: 14%; 
     font-family:cursive, fantasy;
     font-size: 18px;
 }
 .l{
-    color: rgb(129, 15, 38);
+    color:  rgb(64, 20, 223);
     width: 14%; 
     font-family:cursive, fantasy;
     font-size: 18px;
 }
 .m{
-    color: rgb(129, 15, 38);
+    color:  rgb(64, 20, 223);
     width: 14%; 
     font-family:cursive, fantasy;
     font-size: 18px;
 }
 .mi{
-    color: rgb(129, 15, 38);
+    color:  rgb(64, 20, 223);;
     width: 14%; 
     font-family:cursive, fantasy;
     font-size: 18px;
 }
 .j{
-    color: rgb(129, 15, 38);
+    color:  rgb(64, 20, 223);;
     width: 14%;  
-    font-family:cursive, fantasy;
+    
     font-size: 18px;
 }
 .v{
-    color: rgb(129, 15, 38);
+    color:  rgb(64, 20, 223);
     width: 14%; 
     font-family:cursive, fantasy;
     font-size: 18px;
 }
 .SA{
-    color: rgb(129, 15, 38);
+    color:  rgb(64, 20, 223);;
     width: 30%; 
     height: 40px;
     font-family:cursive, fantasy;
     font-size: 18px;
 }
-/* fin horas dias*/
-/* tutoria y cancelda*/
+
 .t{
-    background-color: #b6cc6c;
+    background-color: #28f10d;
+    color: rgb(0, 0, 0);
     letter-spacing: 3px;
     height: 40px;
     font-family:cursive, fantasy;
@@ -65,8 +65,8 @@ table, th,td{
 }
 .c{
     letter-spacing: 3px;
-    background-color:  #c03b3f;
-    color: #fff;
+    background-color:  #f7040d;
+    color: rgb(0, 0, 0);
     height: 40px;
     font-family:cursive, fantasy;
     font-size: 19px;
