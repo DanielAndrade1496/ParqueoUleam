@@ -1,81 +1,76 @@
-*, *:before, *:after {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+table, th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border: 2px solid rgb(1, 1, 1);
+    margin-top: 7px;
 }
-:root {
-    --color-bg-calendar: #94a756;
-    --color-cell: #0c0303;
-    --color-cell-disabled: #3a4246;
+/* horas dias*/
+.h{
+    color: rgb(129, 15, 38);
+    width: 5%;
+    font-family:cursive, fantasy;
+    font-size: 18px;
 }
-.root {
-    min-height: 70vh;
-    padding: 0 15px;
-    display: flex;
-    align-items: center;
+.d{
+    color: rgb(129, 15, 38);
+    width: 14%; 
+    font-family:cursive, fantasy;
+    font-size: 18px;
 }
-
-.calendar {
-    border: solid 1px;
-    padding: 20px 10px;
-    background-color: var(--color-bg-calendar);
-    border-radius: 3px;
-    width: 100%;
-    max-width: 300px;
-    font-family:'Gill Sans';
+.l{
+    color: rgb(129, 15, 38);
+    width: 14%; 
+    font-family:cursive, fantasy;
+    font-size: 18px;
 }
-
-.calendar__header {
-    color: rgb(14, 13, 13);
-    display: flex;
-    justify-content: space-between;
-    text-transform: uppercase;
-    margin-bottom: 30px;
+.m{
+    color: rgb(129, 15, 38);
+    width: 14%; 
+    font-family:cursive, fantasy;
+    font-size: 18px;
 }
-
-.calendar .control {
-    color: rgb(19, 18, 18);
-    font-weight: bold;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 0 5px;
+.mi{
+    color: rgb(129, 15, 38);
+    width: 14%; 
+    font-family:cursive, fantasy;
+    font-size: 18px;
 }
-
-.grid__header, .grid__body {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
+.j{
+    color: rgb(129, 15, 38);
+    width: 14%;  
+    font-family:cursive, fantasy;
+    font-size: 18px;
 }
-
-.grid__header {
-    color: rgb(10, 10, 10);
-    margin-bottom: 20px;
+.v{
+    color: rgb(129, 15, 38);
+    width: 14%; 
+    font-family:cursive, fantasy;
+    font-size: 18px;
 }
-
-.grid__body {
-    grid-auto-rows: 40px;
-    color: var(--color-cell);
+.SA{
+    color: rgb(129, 15, 38);
+    width: 30%; 
+    height: 40px;
+    font-family:cursive, fantasy;
+    font-size: 18px;
 }
-
-.grid__cell {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* fin horas dias*/
+/* tutoria y cancelda*/
+.t{
+    background-color: #b6cc6c;
+    letter-spacing: 3px;
+    height: 40px;
+    font-family:cursive, fantasy;
+    font-size: 19px;
 }
-
-.grid__cell--gd {
-    cursor: pointer;
+.c{
+    letter-spacing: 3px;
+    background-color:  #c03b3f;
+    color: #fff;
+    height: 40px;
+    font-family:cursive, fantasy;
+    font-size: 19px;
 }
-
-.grid__cell--selected {
-    color: var(--color-bg-calendar);
-    background-color: rgb(119, 106, 106);
-    border-radius: 50%;
-    border: 2px solid rgb(119, 106, 106);
-    box-shadow: 0 0 0 2px var(--color-bg-calendar) inset;
-}
-
-.grid__cell--disabled {
-    color: var(--color-cell-disabled);
-    cursor: not-allowed;
+.li{
+    height: 40px;   
 }
